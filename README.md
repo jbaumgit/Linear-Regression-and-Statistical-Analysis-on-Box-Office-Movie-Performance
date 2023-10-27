@@ -90,6 +90,7 @@ After conducting data analysis, we recommend our first film be a Drama with a Bu
 - <p><a href="https://www.nytimes.com/2023/10/20/business/media/apple-killers-of-the-flower-moon-theaters.html?searchResultPosition=22">Apple's Box Office Strategy</a></p>
 - <p><a href="https://independent-magazine.org/2022/10/22/the-demise-of-mid-budget-cinema/">The Demise of Mid-Budget Cinema</a></p>
 - <p><a href="https://www.bbc.com/culture/article/20130620-is-china-hollywoods-future">Global Box Office Effect</a></p>
+- <p><a href="https://www.nytimes.com/2023/03/13/business/media/a24-oscars-everything-everywhere-the-whale.html">A24 Oscars</a></p>
 
 ## For More Information
 
@@ -99,7 +100,7 @@ For more questions, please feel free to reach us:
 
 **Marley Lopez | github.com/0le-worm**
 
-**Andy Shen | github.com/bubblenator**
+**Andy Shen | github.com/ashendy**
 
 **John Baumgartner | github.com/jbaumgit**
 
