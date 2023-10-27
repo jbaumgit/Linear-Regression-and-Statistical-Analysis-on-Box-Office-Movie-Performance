@@ -7,7 +7,7 @@
 
 ## Business Problem
 
-Our company wants to create a new movie studio, but they don’t know anything about creating movies. We are charged with exploring what types of films are currently doing the best at the box office. We then translate those findings into actionable insights that the head of our company's new movie studio can use to help decide what type of films to create.
+Our company wants to create a new movie studio, and is curious what direction to take the debut film. We are charged with exploring the types of movies currently performing well at the box office. We will then translate these findings into actionable insights that the head of our company's new movie studio can use to decide what type of film to make.
 
 ## Data Understanding
 
@@ -20,10 +20,10 @@ We analyzed several databases including:
 
 These data sets contained information about release dates, domestic gross, worldwide gross, budget, rating, genre, actors, actresses, and directors. We analyzed these datasets to draw several conclusions. 
 
-We found that The Numbers database had similar information columns to Box Office Mojo, but more entries, and more precise numbers (Box Office Mojo had rounded values). Similarly, both Rotten Tomatoes and IMDB had genre and rating categories, but IMDB had both more entries and more data entries.
+We found that The Numbers database and Box Office Mojo had similar columns, The Numbers had more entries and more precise data. Similarly, both Rotten Tomatoes and IMDB had genre and rating categories, but IMDB had more entries and more uniform data metrics.
 
 ## Data Preparation
-First we cleaned The Numbers database so that *release_date* and *movie* are strings, and *production_budget, domestic_gross,* and  *worldwide_gross* are integers.
+First we cleaned The Numbers database so that *release_date* and *movie* were strings, and *production_budget, domestic_gross,* and  *worldwide_gross* became integers.
 
 We created new columns *DG_AI* (domestic gross after inflation) and *PB_AI* (production budget after inflation) to have a more accurate view of movie budget & return within the years.
 
@@ -31,7 +31,7 @@ Next we created a column *season* based off of dates, to be able to view trends 
 
 We also created the feature *ROI* which is *domestic_gross / production_budget.*
 
-Next we joined the IMDB databases we need, *movie_basics*, and *movie_ratings* into a dataframe called *joinedIMDB.*
+Next we joined the IMDB databases we needed, turning *movie_basics* and *movie_ratings* into a dataframe called *joinedIMDB.*
 
 We combined The Numbers database with *joinedIMDB* into our masterdataframe, **movie_df**.
 
@@ -42,7 +42,7 @@ Final dataset N = 2203
 
 ## Data Analysis
 
-Thus we used a customized dataset which combined The Numbers database and IMDB's "movie_basics" and "movie_ratings" tables to get an overview of which movies have the highest domestic gross and return on investment. We are also interested in what time of year popular and successful movies are released to understand what genres perform the best during which seasons.
+After preparing the data, we used our customized dataset combining The Numbers database, IMDB's "movie_basics", and "movie_ratings" tables, to establish a budget, and analyze which movies have the highest domestic gross and return on investment (ROI) within that budget. We were also interested in what season in a year is most successful for premiers for the given genre.
 
 ### Setting the Budget 
 ![graph1](./Images/WhiskerBudget.png)
