@@ -94,7 +94,7 @@ After conducting data analysis, we recommend our first film be a Drama with a Bu
 
 ## For More Information
 
-Please visit our full analysis in our [Jupyter Notebook](./index.ipynb) and  [Slide Presentation](./MoviePresentation.pdf).
+Please visit our full analysis in our [Jupyter Notebook](./index.ipynb) and  [Slide Presentation](./presentation.pdf).
 
 For more questions, please feel free to reach us: 
 
@@ -113,7 +113,7 @@ You are currently in the README.md file. The 'index.ipynb' file contains the jup
 ├── Data                    <- Data file used in this project
 ├── Images                  <- Images and Graphs used in this project obtained from external and internal source
 ├── .gitignore              <- Contains list of files to be ignored from GitHub
-├── MoviePresentation.pdf   <- Slide Presentation of the project
+├── presentation.pdf        <- Slide Presentation of the project
 ├── README.md               <- Contains README file to be reviewed    
 └── index.ipynb             <- Jupyter notebook of the project containing codes and analysis
 ```
